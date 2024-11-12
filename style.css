@@ -1,0 +1,282 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.hero{
+    height: 100vh;
+    background: url(/peter-hansen-MeGmdPNe36w-unsplash.jpg) no-repeat center center/cover;
+}
+.hero #head{
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+#telephone{
+    font-size: small;
+}
+#searchBar{
+width: 200px;
+height: 26px;
+}
+#head{
+    background-color: white;
+}
+.hero .navbar nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 1000px;
+    font-size: 15px;
+    gap: 20px;
+    
+}
+.hero .navbar nav ul span{
+    list-style: none;
+    display: flex ;
+    justify-content: space-around;
+    gap: 20px;
+    height: 30px;
+    background-color: rgb(36, 31, 31);
+    align-items: center;
+    
+}
+#signup{
+color: blue;
+}
+#parahead{
+    font-size: 40px;
+}
+.paragraph{
+    margin-left: 260px;
+    margin-top: 150px;
+}
+.btn{
+    background-color: rgb(46, 150, 190);
+    color: white;                                                  
+    font-size: 25px;
+    text-decoration: none;
+}
+.box{
+    margin-left: 260px;
+     margin-top: 70px;
+    height: 110px;
+    width: 900px;
+    background-color: rgba(248, 245, 245, 0.7);
+    display: flex;
+    align-items: center;
+}
+button{
+    background-color: rgb(46, 150, 190);
+    color: white;
+    height: 35px ;
+    width: 100px;
+}
+#inputbox{
+    width: 180px;
+    height: 35px;
+}
+#where{
+    height: 35px;
+}
+#when{
+    height: 35px;
+}
+#cruiseline{
+    height: 35px;
+}
+#hotcruises{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 230px;
+}
+#cruiseshead{
+     font-size: 30px;
+}
+#browse{
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 269px;
+
+}
+.cards{
+    margin-top: 50px;
+    margin-left: 230px;
+    display: grid;
+    grid-template-columns: 290px 290px 290px
+} 
+#card1{
+border: 1px solid;
+border-color: gray;
+width: 272px;
+height: 400px;
+
+}
+#card2 {
+    border: 1px solid;
+    border-color: gray;
+    width: 272px;
+    height: 400px;
+}
+#card3 {
+    border: 1px solid;
+    border-color: gray;
+    width: 272px;
+    height: 400px;
+}    
+h2{
+    display: flex;
+    justify-content: space-between;
+}
+#stars{
+    font-size: 10px;
+    padding-top: 9px;
+    padding-right: 29px;
+}
+#p1{
+    padding-left: 20px;
+}
+h2{
+    padding-left: 20px;
+}
+#p2{
+    padding-left: 20px;
+}
+#p3{
+    padding-left: 20px;
+}
+#doller{
+    padding-right: 30px;
+}
+.btn1{
+    background-color: rgb(46, 150, 190);
+    color: white;
+    text-decoration: none;
+    padding: 7px 8px 7px 8px;
+}
+#std{
+    padding-left: 20px;
+    font-size: 35px;
+}
+.section3{
+    margin-top:  100px;
+    height: 100vh;
+    background: url(/Ship.jpg) no-repeat center center/cover;
+}
+.imgbox{
+    height: 100vh;
+    background-color: rgba(46, 150, 190, 0.6);
+}
+#reasons{
+    padding: 50px;
+    color: white;
+}
+.impcards{
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    grid-template-columns: 200px 200px 200px
+    
+}
+#impcard1{
+    border: 2px solid;
+    border-color: black;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    padding-top: 80px;
+    font-size: larger;
+}
+#impcard2{
+    border: 2px solid;
+    border-color: black;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    padding-top: 85px;
+    font-size: larger;
+}
+#impcard3{
+    border: 2px solid;
+    border-color: black;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    padding-top: 80px;
+}
+#impcard4{
+    border: 2px solid;
+    border-color: black;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    padding-top: 80px;
+} 
+#impcard5{
+    border: 2px solid;
+    border-color: black;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    padding-top: 80px;
+}
+#impcard6{
+    border: 2px solid;
+    border-color: black;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    padding-top: 80px;
+}
+.icons{
+    border: 2px solid  #74C0FC;
+    padding: 20px 20px 20px 20px;
+    border-radius: 50px;
+    font-size: larger;
+     
+}
+.ourcompany{
+    margin-top: 100px;
+}
+.section5{
+    margin-top: 150px;
+    height: 60vh;
+    background: url(/jack-coble-licr8v4U6E0-unsplash.jpg) no-repeat center center/cover;
+
+}
+.sec5box{
+    height: 60vh;
+    background-color: rgba(46, 150, 190, 0.6);
+}
+#testimonialpara1{
+    color: white;
+}
+#testimonialpara2{
+    color: white;
+}
+.testimonialspara{
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials{
+    font-size: larger;
+    color: white;
+    padding-top: 100px;
+}
+#doller{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
