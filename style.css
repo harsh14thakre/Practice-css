@@ -280,3 +280,37 @@ h2{
     justify-content: space-between;
     align-items: center;
 }
+#footer{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(17, 27, 27);
+    /* margin-left: 80px;
+    margin-right: 80px; */
+
+}
+
+
+#footer div{
+     color: rgb(148, 145, 145);
+    /* padding: 50px; */
+    justify-content: space-between;
+    padding: 100px 50px 100px 20px ;
+}
+#footer .st1{
+    margin-left: 100px;
+   }
+   #footer .nd2{
+       margin-right: 60px;
+   }
+#footer h3{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.email input{
+      font-size: 20px;
+}
+#footer .icons{
+    display: flex;
+}
